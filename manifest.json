@@ -1,0 +1,21 @@
+{
+    "name": "Change domain extenstion",
+    "version": "0.1",
+    "description": "Change domain for current url",
+    "manifest_version": 2,
+
+    "permissions": [
+        "tabs"
+    ],
+
+    "browser_action": {
+      "default_title": "Change Domain",
+      "default_icon": {
+          "19": "images/icon19.png",
+          "38": "images/icon38.png"
+      },
+      "default_popup": "popup.html"
+     },
+
+    "options_page": "options.html"
+}

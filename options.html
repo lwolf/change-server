@@ -1,0 +1,45 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    	<link href="css/options.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body id="options_body">
+        <div class="menu">
+            <label><span id="lngLanguage">Language</span></label>
+            <select id="language" style="width: 200px;"></select>
+        </div>
+
+        <br/>
+
+        <div class="menu">
+            <label>
+                <span id="lngDomain">Domain</span>
+            </label><input type="text" id="domain" name="domain"/>
+
+            <label>
+                <span id="lngAlias">Alias</span>
+            </label><input type="text" id="alias" name="alias"/>
+            <button id="lngAdd">Add</button>
+
+            <ul class="menu" id="items">
+                <li></li><button id="lngRemove">Remove</button><button id="lngEdit">Edit</button>
+            </ul>
+        </div>
+
+        <div class="menu">
+            <div class="buttons">
+                <input type="button" id="lngClear" value="Clear all"/>
+                <input type="button" id="lngSave" value="Save"/>
+                <input type="button" id="lngExit" value="Exit"/>
+            </div>
+        </div>
+
+    <script type="text/javascript" src="js/utils.js"></script>
+	<script type="text/javascript" src="js/options.js"></script>
+
+	<script type="text/javascript" src="locale/en_US/options.js"></script>
+	<script type="text/javascript" src="locale/ru_RU/options.js"></script>
+
+    </body>
+</html>

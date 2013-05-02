@@ -1,0 +1,26 @@
+body
+{
+	min-width: 200px;
+    min-height: 100px;
+    padding: 0;
+    margin: 0;
+}
+#domainsList{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+#domainsList li{
+    font-size: 1.0em;
+
+}
+#domainsList li a{
+    display: block;
+    width: 100%;
+    margin-left: 10px;
+}
+
+#domainsList li:hover{
+    background-color: #dfdfdf;
+}
