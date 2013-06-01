@@ -104,12 +104,12 @@ function renderItem(domain, alias, item_id){
     }
 
 
-    var new_item = document.createElement('li');
+    var new_item = document.createElement('tr');
     var editButton = document.createElement('button');
     var removeButton = document.createElement('button');
 
     new_item.setAttribute('id', "item_" + item_id);
-    new_item.innerHTML = domain + " [" + alias + "]";
+    new_item.innerHTML = "<td class='itm-domain'>" + domain + "</td> <td class='itm-alias'>" + alias + "</td>";
 
     editButton.setAttribute('id', 'edit_' + item_id);
     editButton.innerHTML = 'Edit';

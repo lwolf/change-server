@@ -1,6 +1,6 @@
 {
     "name": "Change domain extenstion",
-    "version": "0.1",
+    "version": "0.1.2",
     "description": "Change domain for current url",
     "manifest_version": 2,
     "permissions": [

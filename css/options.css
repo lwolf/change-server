@@ -29,3 +29,7 @@ div.buttons input[type=button]
 {
 	width: 140px;
 }
+
+ul.menu{
+    list-style: none;
+}
