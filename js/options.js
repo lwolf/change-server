@@ -1,12 +1,8 @@
 
 function init(){
     renderItems();
-    localize();
 }
 
-function localize(){
-
-}
 function createOption(text, value){
 	var opt = document.createElement('option');
 
@@ -59,7 +55,7 @@ function AddItem(){
     domain.value = "";
     alias.value = "";
     item_id.value = "";
-
+    renderItems();
 }
 
 function onRemove(){
@@ -86,6 +82,7 @@ function onEdit(){
             document.getElementById('alias').value = data[1];
         }
     }
+    renderItems();
 }
 
 function renderItems(){

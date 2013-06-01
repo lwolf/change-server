@@ -3,12 +3,9 @@
     "version": "0.1",
     "description": "Change domain for current url",
     "manifest_version": 2,
-    "default_locale": "en",
-
     "permissions": [
         "tabs"
     ],
-
     "browser_action": {
       "default_title": "Change Domain",
       "default_icon": {
