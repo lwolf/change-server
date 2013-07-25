@@ -137,8 +137,6 @@ function onExit(){
 document.addEventListener( "DOMContentLoaded" , function () {
     init();
     document.getElementById("AddBtn").addEventListener("click", AddItem);
-    //document.getElementById("EditBtn").addEventListener("click", onEdit);
-    //document.getElementById("RemoveBtn").addEventListener("click", onRemove);
     document.getElementById("ClearBtn").addEventListener("click", onClear);
     document.getElementById("ExitBtn").addEventListener("click", onExit);
 });

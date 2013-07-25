@@ -20,16 +20,18 @@ function renderItem(domain, alias, current_url){
 }
 
 function getNewUrl(newDomain, current_url){
+    /*
+        TODO: fix bug if slash in url params, like ?q='/'
+     */
     var protocol = current_url.split('//')[0];
     var url = current_url.split('//')[1].split('/')[0];
-    var params = current_url.split('//')[1].split('/')[1];
+    var params = current_url.split('//')[1].split('/').slice(1);
     var parts = url.split('.');
     var subdomain = '';
     if (url.split('.').length > 2){
         subdomain = parts.shift() + '.';
     }
-
-    return protocol + '//' + subdomain + newDomain + '/' + params
+    return protocol + '//' + subdomain + newDomain + '/' + params.join('/')
 }
 
 function showOptions(){
