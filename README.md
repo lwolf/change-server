@@ -7,14 +7,12 @@ During development and support of web projects its very common to open one url
 in several versions of code. 
 Basic case: open production link 
 
-    `http://production.com/some-location?q=blabla`
+    http://production.com/some-location?q=blabla
 
 on few test/dev servers:
 
-    ```
     http://test_us.example.com/some-location?q=blabla 
     http://test_uk.example.com/some-location?q=blabla
-    ```
 
 
 This small plugin was written after dozens of similar changes to the url.
